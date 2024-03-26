@@ -11,6 +11,7 @@
   - [✅Citation](#citation)
 
 ## ✅abstract
+Sequential Recommenders have been widely applied in various online services, aiming to model users' dynamic interests from their sequential interactions. With users increasingly engaging with online platforms, vast amounts of lifelong user behavioral sequences have been generated. However, existing sequential recommender models often struggle to handle such lifelong sequences. The primary challenges stem from computational complexity and the ability to capture long-range dependencies within the sequence. Recently, a state space model featuring a selective mechanism (i.e., Mamba) has emerged. In this work, we investigate the performance of Mamba for lifelong sequential recommendation (i.e., length>=2k). More specifically, we leverage the Mamba block to model lifelong user sequences selectively. We conduct extensive experiments to evaluate the performance of representative sequential recommendation models in the setting of lifelong sequences. Experiments on two real-world datasets demonstrate the superiority of Mamba. We found that RecMamba achieves performance comparable to the representative model while significantly reducing training duration by approximately 70% and memory costs by 80%. Codes and data are available at \url{this https URL}.
 
 ## ✅Performance
 **Performance in album:**  
@@ -31,7 +32,7 @@
 
 
 ## ✅Efficiency
-![Gpu and time](/element/Eff.png "Eff") 
+![Gpu and time](/element/effiency.png "Eff") 
 
 ## ✅Requirements
 
@@ -93,6 +94,17 @@ It represents that User 4 interacted with items 5, 9, 1000, 8327 and 5.
 
 
 ## ✅Citation
+If you find our codes and datasets useful for your research, please cite:
+```
+@misc{yang2024uncovering,
+      title={Uncovering Selective State Space Model's Capabilities in Lifelong Sequential Recommendation}, 
+      author={Jiyuan Yang and Yuanzi Li and Jingyu Zhao and Hanbing Wang and Muyang Ma and Jun Ma and Zhaochun Ren and Mengqi Zhang and Xin Xin and Zhumin Chen and Pengjie Ren},
+      year={2024},
+      eprint={2403.16371},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+```
 
 
 
